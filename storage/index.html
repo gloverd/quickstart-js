@@ -28,17 +28,21 @@ limitations under the License.
   <link rel="stylesheet" href="main.css">
 
   <!-- Firebase -->
-  <!-- *******************************************************************************
-       * TODO(DEVELOPER): Paste the initialization snippet by navigating to:
 
-        https://console.firebase.google.com
-
-       and choosing a project you've created.  Then click the red HTML logo at the top
-       right of the page with the caption "Add Firebase to your web app".
-
-       Copy the snippet that appears in place of this comment.
-       *************************************************************************** -->
-
+<script src="https://www.gstatic.com/firebasejs/live/3.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyBbfXuFPOXwKYrTlWI-BFe3bXYiqtaJZa8",
+    authDomain: "aqua-c773f.firebaseapp.com",
+    databaseURL: "https://aqua-c773f.firebaseio.com",
+    storageBucket: "aqua-c773f.appspot.com",
+  };
+  firebase.initializeApp(config);
+</script>
+    
+    
+    
 </head>
 <body>
   <div class="demo-layout mdl-layout mdl-js-layout mdl-layout--fixed-header">
